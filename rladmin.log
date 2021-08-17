@@ -1,0 +1,145 @@
+2021-08-17 09:21:34,665 INFO rladmin.command MainThread: COMMAND rladmin status nodes
+2021-08-17 09:21:34,990 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:21:35,997 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:21:37,004 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:21:38,009 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:21:39,015 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:21:40,051 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:21:41,057 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:21:42,064 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:21:43,071 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:21:44,077 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:21:45,084 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:21:46,090 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:21:47,097 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:21:48,103 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:21:49,109 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:21:50,117 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:21:51,124 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:21:52,130 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:21:53,137 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:21:54,141 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:48:03,532 INFO rladmin.command MainThread: COMMAND rladmin status nodes
+2021-08-17 09:48:03,831 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:48:04,838 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:48:05,845 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:48:06,851 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:48:07,857 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:48:08,900 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:48:09,907 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:48:10,913 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:48:11,921 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:48:12,927 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:48:13,934 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:48:14,940 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:48:15,947 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:48:16,954 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:48:17,961 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:48:18,968 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:48:19,973 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:48:20,978 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:48:21,983 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 09:48:22,988 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:10:36,767 INFO rladmin.command MainThread: COMMAND rladmin status
+2021-08-17 11:10:37,065 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:10:38,070 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:10:39,075 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:10:40,080 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:10:41,084 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:10:42,128 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:10:43,134 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:10:44,141 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:10:45,147 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:10:46,154 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:10:47,161 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:10:48,168 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:10:49,173 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:10:50,180 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:10:51,185 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:10:52,194 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:10:53,201 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:10:54,208 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:10:55,215 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:10:56,221 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:57:57,825 INFO rladmin.command MainThread: COMMAND rladmin status nodes
+2021-08-17 11:57:58,129 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:57:59,135 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:00,140 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:01,146 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:02,152 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:03,191 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:04,197 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:05,204 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:06,211 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:07,217 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:08,224 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:09,230 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:10,237 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:11,243 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:12,249 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:13,258 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:14,265 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:15,272 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:16,279 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:17,288 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:29,027 INFO rladmin.command MainThread: COMMAND rladmin status nodes
+2021-08-17 11:58:29,323 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:30,330 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:31,336 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:32,342 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:33,346 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:34,388 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:35,393 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:36,399 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:37,403 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:38,408 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:39,414 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:40,420 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:41,424 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:42,430 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:43,437 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:44,445 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:45,452 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:46,459 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:47,465 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 11:58:48,471 WARNING cnm.services.common.node_status MainThread: could not get node_free_memory from node 2
+2021-08-17 12:08:19,168 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 12:08:20,171 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 12:08:21,173 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 12:08:22,175 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 12:08:23,178 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 12:08:24,180 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 12:08:25,182 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 12:08:26,184 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 12:08:27,186 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 12:08:28,189 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 12:08:32,976 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 12:08:33,979 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 12:08:34,981 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 12:08:35,984 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 12:08:36,986 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 12:08:37,989 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 12:08:38,992 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 12:08:39,994 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 12:08:40,997 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 12:08:41,999 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 12:11:10,345 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 12:11:11,348 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 12:11:12,350 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 12:11:13,353 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 12:11:14,356 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 12:11:15,358 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 12:11:16,361 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 12:11:17,363 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 12:11:18,366 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 12:11:19,369 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 13:34:41,803 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 13:34:42,806 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 13:34:43,808 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 13:34:44,811 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 13:34:45,813 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 13:34:46,816 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 13:34:47,819 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 13:34:48,821 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 13:34:49,824 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying
+2021-08-17 13:34:50,826 ERROR ccs MainThread: Connect failed: connect: connection failed: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.: retrying

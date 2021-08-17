@@ -1,0 +1,6 @@
+==================dmcproxy 13479 started==================
+==================dmcproxy 2631 started==================
+==================dmcproxy 5341 started==================
+dmcproxy: /garantia.cluster/build/opt/redislabs/include/datapath_common/infra/clock/time.h:178: infra::clock::Time& infra::clock::Time::operator-=(const infra::clock::Time&): Assertion `m_time.tv_sec >= 0' failed.
+==================dmcproxy 5879 started==================
+==================dmcproxy 6705 started==================

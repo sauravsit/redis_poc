@@ -1,0 +1,112 @@
+saslauthd[13675] :server_exit     : pid file lock removed: /var/run/saslauthd/saslauthd.pid.lock
+saslauthd[13681] :server_exit     : child exited: 13681
+saslauthd[13675] :cache_cleanup_lock: flock file removed: /var/run/saslauthd/cache.flock
+saslauthd[13675] :cache_cleanup_mm: cache mmap file removed: /var/run/saslauthd/cache.mmap
+saslauthd[13675] :ipc_cleanup     : accept lock file removed: /var/run/saslauthd/mux.accept
+saslauthd[13675] :ipc_cleanup     : socket removed: /var/run/saslauthd/mux
+saslauthd[13675] :server_exit     : master exited: 0
+saslauthd[13685] :server_exit     : child exited: 13685
+saslauthd[13682] :server_exit     : child exited: 13682
+saslauthd[13684] :server_exit     : child exited: 13684
+saslauthd[13480] :main            : num_procs  : 5
+saslauthd[13480] :main            : mech_option: /etc/opt/redislabs/saslauthd.conf
+saslauthd[13480] :main            : run_path   : /var/run/saslauthd
+saslauthd[13480] :main            : auth_mech  : ldap
+saslauthd[13480] :cache_alloc_mm  : mmaped shared memory segment on file: /var/run/saslauthd/cache.mmap
+saslauthd[13480] :cache_init      : bucket size: 96 bytes
+saslauthd[13480] :cache_init      : stats size : 36 bytes
+saslauthd[13480] :cache_init      : timeout    : 60 seconds
+saslauthd[13480] :cache_init      : cache table: 985828 total bytes
+saslauthd[13480] :cache_init      : cache table: 1711 slots
+saslauthd[13480] :cache_init      : cache table: 10266 buckets
+saslauthd[13480] :cache_init_lock : flock file opened at /var/run/saslauthd/cache.flock
+saslauthd[13480] :ipc_init        : using accept lock file: /var/run/saslauthd/mux.accept
+saslauthd[13480] :detach_tty      : master pid is: 0
+saslauthd[13480] :ipc_init        : listening on socket: /var/run/saslauthd/mux
+saslauthd[13480] :main            : using process model
+saslauthd[13480] :have_baby       : forked child: 13497
+saslauthd[13480] :have_baby       : forked child: 13498
+saslauthd[13480] :have_baby       : forked child: 13499
+saslauthd[13499] :get_accept_lock : acquired accept lock
+saslauthd[13480] :have_baby       : forked child: 13500
+saslauthd[2635] :main            : num_procs  : 5
+saslauthd[2635] :main            : mech_option: /etc/opt/redislabs/saslauthd.conf
+saslauthd[2635] :main            : run_path   : /var/run/saslauthd
+saslauthd[2635] :main            : auth_mech  : ldap
+saslauthd[2635] :cache_alloc_mm  : mmaped shared memory segment on file: /var/run/saslauthd/cache.mmap
+saslauthd[2635] :cache_init      : bucket size: 96 bytes
+saslauthd[2635] :cache_init      : stats size : 36 bytes
+saslauthd[2635] :cache_init      : timeout    : 60 seconds
+saslauthd[2635] :cache_init      : cache table: 985828 total bytes
+saslauthd[2635] :cache_init      : cache table: 1711 slots
+saslauthd[2635] :cache_init      : cache table: 10266 buckets
+saslauthd[2635] :cache_init_lock : flock file opened at /var/run/saslauthd/cache.flock
+saslauthd[2635] :ipc_init        : using accept lock file: /var/run/saslauthd/mux.accept
+saslauthd[2635] :detach_tty      : master pid is: 0
+saslauthd[2635] :ipc_init        : listening on socket: /var/run/saslauthd/mux
+saslauthd[2635] :main            : using process model
+saslauthd[2635] :have_baby       : forked child: 2658
+saslauthd[2658] :get_accept_lock : acquired accept lock
+saslauthd[2635] :have_baby       : forked child: 2659
+saslauthd[2635] :have_baby       : forked child: 2660
+saslauthd[2635] :have_baby       : forked child: 2662
+saslauthd[2635] :server_exit     : pid file lock removed: /var/run/saslauthd/saslauthd.pid.lock
+saslauthd[2635] :cache_cleanup_lock: flock file removed: /var/run/saslauthd/cache.flock
+saslauthd[2635] :cache_cleanup_mm: cache mmap file removed: /var/run/saslauthd/cache.mmap
+saslauthd[2635] :ipc_cleanup     : accept lock file removed: /var/run/saslauthd/mux.accept
+saslauthd[2635] :ipc_cleanup     : socket removed: /var/run/saslauthd/mux
+saslauthd[2635] :server_exit     : master exited: 0
+saslauthd[2662] :server_exit     : child exited: 2662
+saslauthd[2658] :server_exit     : child exited: 2658
+saslauthd[2659] :server_exit     : child exited: 2659
+saslauthd[5342] :main            : num_procs  : 5
+saslauthd[5342] :main            : mech_option: /etc/opt/redislabs/saslauthd.conf
+saslauthd[5342] :main            : run_path   : /var/run/saslauthd
+saslauthd[5342] :main            : auth_mech  : ldap
+saslauthd[5342] :cache_alloc_mm  : mmaped shared memory segment on file: /var/run/saslauthd/cache.mmap
+saslauthd[5342] :cache_init      : bucket size: 96 bytes
+saslauthd[5342] :cache_init      : stats size : 36 bytes
+saslauthd[5342] :cache_init      : timeout    : 60 seconds
+saslauthd[5342] :cache_init      : cache table: 985828 total bytes
+saslauthd[5342] :cache_init      : cache table: 1711 slots
+saslauthd[5342] :cache_init      : cache table: 10266 buckets
+saslauthd[5342] :cache_init_lock : flock file opened at /var/run/saslauthd/cache.flock
+saslauthd[5342] :ipc_init        : using accept lock file: /var/run/saslauthd/mux.accept
+saslauthd[5342] :detach_tty      : master pid is: 0
+saslauthd[5342] :ipc_init        : listening on socket: /var/run/saslauthd/mux
+saslauthd[5342] :main            : using process model
+saslauthd[5342] :have_baby       : forked child: 5357
+saslauthd[5342] :have_baby       : forked child: 5358
+saslauthd[5342] :have_baby       : forked child: 5359
+saslauthd[5342] :have_baby       : forked child: 5361
+saslauthd[5342] :get_accept_lock : acquired accept lock
+saslauthd[5342] :server_exit     : pid file lock removed: /var/run/saslauthd/saslauthd.pid.lock
+saslauthd[5342] :cache_cleanup_lock: flock file removed: /var/run/saslauthd/cache.flock
+saslauthd[5358] :server_exit     : child exited: 5358
+saslauthd[5342] :cache_cleanup_mm: cache mmap file removed: /var/run/saslauthd/cache.mmap
+saslauthd[5342] :ipc_cleanup     : accept lock file removed: /var/run/saslauthd/mux.accept
+saslauthd[5342] :ipc_cleanup     : socket removed: /var/run/saslauthd/mux
+saslauthd[5342] :server_exit     : master exited: 0
+saslauthd[5359] :server_exit     : child exited: 5359
+saslauthd[5357] :server_exit     : child exited: 5357
+saslauthd[6706] :main            : num_procs  : 5
+saslauthd[6706] :main            : mech_option: /etc/opt/redislabs/saslauthd.conf
+saslauthd[6706] :main            : run_path   : /var/run/saslauthd
+saslauthd[6706] :main            : auth_mech  : ldap
+saslauthd[6706] :cache_alloc_mm  : mmaped shared memory segment on file: /var/run/saslauthd/cache.mmap
+saslauthd[6706] :cache_init      : bucket size: 96 bytes
+saslauthd[6706] :cache_init      : stats size : 36 bytes
+saslauthd[6706] :cache_init      : timeout    : 60 seconds
+saslauthd[6706] :cache_init      : cache table: 985828 total bytes
+saslauthd[6706] :cache_init      : cache table: 1711 slots
+saslauthd[6706] :cache_init      : cache table: 10266 buckets
+saslauthd[6706] :cache_init_lock : flock file opened at /var/run/saslauthd/cache.flock
+saslauthd[6706] :ipc_init        : using accept lock file: /var/run/saslauthd/mux.accept
+saslauthd[6706] :detach_tty      : master pid is: 0
+saslauthd[6706] :ipc_init        : listening on socket: /var/run/saslauthd/mux
+saslauthd[6706] :main            : using process model
+saslauthd[6706] :have_baby       : forked child: 6709
+saslauthd[6706] :have_baby       : forked child: 6710
+saslauthd[6706] :have_baby       : forked child: 6711
+saslauthd[6706] :have_baby       : forked child: 6712
+saslauthd[6706] :get_accept_lock : acquired accept lock

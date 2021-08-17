@@ -1,0 +1,20 @@
+Terminating on signal 15
+*** Default error handler ***
+Traceback (most recent call last):
+  File "/opt/redislabs/lib/python2.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/opt/redislabs/lib/python2.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/opt/redislabs/lib/python2.7/site-packages/flask_login.py", line 792, in decorated_view
+    return func(*args, **kwargs)
+  File "/opt/redislabs/lib/python2.7/site-packages/cm/app/nodes/views.py", line 16, in getNodes
+  File "/opt/redislabs/lib/python2.7/site-packages/cm/app/nodes/models.py", line 223, in toViewJSON_final
+  File "/opt/redislabs/lib/python2.7/site-packages/cm/app/nodes/models.py", line 191, in getNodes
+  File "/opt/redislabs/lib/python2.7/site-packages/werkzeug/exceptions.py", line 822, in abort
+    return _aborter(status, *args, **kwargs)
+  File "/opt/redislabs/lib/python2.7/site-packages/werkzeug/exceptions.py", line 807, in __call__
+    raise self.mapping[code](*args, **kwargs)
+InternalServerError: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+*****************************
+Terminating on signal 15
+Terminating on signal 15

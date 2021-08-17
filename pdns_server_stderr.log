@@ -1,0 +1,24 @@
+Aug 17 09:43:47 UDP server bound to 0.0.0.0:53
+Aug 17 09:43:47 UDPv6 server bound to [::]:53
+Aug 17 09:43:47 Only asked for 1 backend thread - operating unthreaded
+Aug 17 09:43:47 Master/slave communicator launching
+Aug 17 09:43:47 Backend launched with banner: OK	CCS Backend Adapter is ready.
+Aug 17 09:43:47 Backend launched with banner: OK	CCS Backend Adapter is ready.
+Aug 17 19:04:15 UDP server bound to 0.0.0.0:53
+Aug 17 19:04:15 UDPv6 server bound to [::]:53
+Aug 17 19:04:15 Master/slave communicator launching
+Aug 17 19:04:15 Only asked for 1 backend thread - operating unthreaded
+Aug 17 19:04:16 Backend launched with banner: OK	CCS Backend Adapter is ready.
+Aug 17 19:04:16 Backend launched with banner: OK	CCS Backend Adapter is ready.
+Aug 17 19:07:15 UDP server bound to 0.0.0.0:53
+Aug 17 19:07:15 UDPv6 server bound to [::]:53
+Aug 17 19:07:15 Master/slave communicator launching
+Aug 17 19:07:15 Only asked for 1 backend thread - operating unthreaded
+Aug 17 19:07:16 Backend launched with banner: OK	CCS Backend Adapter is ready.
+Aug 17 19:07:16 Backend launched with banner: OK	CCS Backend Adapter is ready.
+Aug 17 12:10:23 UDP server bound to 0.0.0.0:53
+Aug 17 12:10:23 UDPv6 server bound to [::]:53
+Aug 17 12:10:23 Only asked for 1 backend thread - operating unthreaded
+Aug 17 12:10:23 Master/slave communicator launching
+Aug 17 12:10:24 Backend launched with banner: OK	CCS Backend Adapter is ready.
+Aug 17 12:10:24 Backend launched with banner: OK	CCS Backend Adapter is ready.

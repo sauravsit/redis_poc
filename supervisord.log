@@ -1,0 +1,436 @@
+2021-08-17 09:43:35,006 INFO stopped: envoy (terminated by SIGTERM)
+2021-08-17 09:43:35,022 INFO stopped: envoy_control_plane (terminated by SIGTERM)
+2021-08-17 09:43:35,023 INFO stopped: heartbeatd (terminated by SIGTERM)
+2021-08-17 09:43:35,023 INFO stopped: saslauthd (exit status 0)
+2021-08-17 09:43:35,026 INFO stopped: start_redis_servers (terminated by SIGTERM)
+2021-08-17 09:43:35,026 INFO stopped: sentinel_service (terminated by SIGTERM)
+2021-08-17 09:43:35,027 INFO stopped: nginx (exit status 0)
+2021-08-17 09:43:35,027 INFO waiting for ccs to stop
+2021-08-17 09:43:35,027 INFO waiting for node_wd to stop
+2021-08-17 09:43:35,027 INFO waiting for cluster_wd to stop
+2021-08-17 09:43:35,027 INFO waiting for ldap_agent_mgr to stop
+2021-08-17 09:43:35,027 INFO waiting for gossip_envoy to stop
+2021-08-17 09:43:35,027 INFO waiting for resource_mgr to stop
+2021-08-17 09:43:35,027 INFO waiting for stats_archiver to stop
+2021-08-17 09:43:35,027 INFO waiting for crdb_worker_0 to stop
+2021-08-17 09:43:35,027 INFO waiting for crdb_worker_1 to stop
+2021-08-17 09:43:35,027 INFO waiting for cnm_exec to stop
+2021-08-17 09:43:35,027 INFO waiting for redis_mgr to stop
+2021-08-17 09:43:35,027 INFO waiting for cnm_http to stop
+2021-08-17 09:43:35,027 INFO waiting for crdb_coordinator to stop
+2021-08-17 09:43:35,027 INFO waiting for rl_info_provider to stop
+2021-08-17 09:43:35,027 INFO waiting for alert_mgr to stop
+2021-08-17 09:43:35,027 INFO waiting for cm_server to stop
+2021-08-17 09:43:35,027 INFO waiting for dmcproxy to stop
+2021-08-17 09:43:35,027 INFO waiting for mdns_server to stop
+2021-08-17 09:43:35,027 INFO waiting for pdns_server to stop
+2021-08-17 09:43:35,028 INFO waiting for metrics_exporter to stop
+2021-08-17 09:43:35,028 INFO waiting for job_scheduler to stop
+2021-08-17 09:43:35,050 INFO stopped: pdns_server (terminated by SIGTERM)
+2021-08-17 09:43:35,060 INFO stopped: gossip_envoy (exit status 0)
+2021-08-17 09:43:35,090 INFO stopped: node_wd (terminated by SIGKILL)
+2021-08-17 09:43:35,106 INFO stopped: resource_mgr (exit status 1)
+2021-08-17 09:43:35,109 INFO stopped: job_scheduler (terminated by SIGKILL)
+2021-08-17 09:43:35,124 INFO stopped: cluster_wd (exit status 1)
+2021-08-17 09:43:35,129 INFO stopped: ldap_agent_mgr (exit status 1)
+2021-08-17 09:43:35,138 INFO stopped: mdns_server (exit status 1)
+2021-08-17 09:43:35,157 INFO stopped: crdb_worker_0 (exit status 1)
+2021-08-17 09:43:35,169 INFO stopped: stats_archiver (exit status 1)
+2021-08-17 09:43:35,177 INFO stopped: crdb_worker_1 (exit status 1)
+2021-08-17 09:43:35,204 INFO stopped: alert_mgr (exit status 1)
+2021-08-17 09:43:35,219 INFO stopped: redis_mgr (exit status 1)
+2021-08-17 09:43:35,267 INFO stopped: cnm_exec (exit status 1)
+2021-08-17 09:43:35,296 INFO stopped: cm_server (exit status 1)
+2021-08-17 09:43:35,332 INFO stopped: metrics_exporter (exit status 1)
+2021-08-17 09:43:35,342 INFO stopped: crdb_coordinator (exit status 0)
+2021-08-17 09:43:35,431 INFO stopped: rl_info_provider (exit status 1)
+2021-08-17 09:43:35,444 INFO stopped: cnm_http (exit status 0)
+2021-08-17 09:43:35,972 INFO stopped: ccs (exit status 0)
+2021-08-17 09:43:37,976 INFO waiting for dmcproxy to stop
+2021-08-17 09:43:39,981 INFO waiting for dmcproxy to stop
+2021-08-17 09:43:41,986 INFO waiting for dmcproxy to stop
+2021-08-17 09:43:43,991 INFO waiting for dmcproxy to stop
+2021-08-17 09:43:45,996 WARN killing 'dmcproxy' (13674) with SIGKILL
+2021-08-17 09:43:45,997 INFO waiting for dmcproxy to stop
+2021-08-17 09:43:46,030 INFO stopped: dmcproxy (terminated by SIGKILL)
+2021-08-17 09:43:47,051 INFO spawned: 'ccs' with pid 13425
+2021-08-17 09:43:47,054 INFO spawned: 'envoy_control_plane' with pid 13426
+2021-08-17 09:43:47,059 INFO spawned: 'heartbeatd' with pid 13427
+2021-08-17 09:43:47,062 INFO spawned: 'node_wd' with pid 13428
+2021-08-17 09:43:47,066 INFO spawned: 'cluster_wd' with pid 13429
+2021-08-17 09:43:47,069 INFO spawned: 'ldap_agent_mgr' with pid 13430
+2021-08-17 09:43:47,071 INFO spawned: 'gossip_envoy' with pid 13436
+2021-08-17 09:43:47,075 INFO spawned: 'envoy' with pid 13437
+2021-08-17 09:43:47,078 INFO spawned: 'resource_mgr' with pid 13438
+2021-08-17 09:43:47,081 INFO spawned: 'stats_archiver' with pid 13439
+2021-08-17 09:43:47,085 INFO spawned: 'crdb_worker_0' with pid 13458
+2021-08-17 09:43:47,088 INFO spawned: 'crdb_worker_1' with pid 13465
+2021-08-17 09:43:47,092 INFO spawned: 'cnm_exec' with pid 13468
+2021-08-17 09:43:47,095 INFO spawned: 'redis_mgr' with pid 13469
+2021-08-17 09:43:47,099 INFO spawned: 'cnm_http' with pid 13473
+2021-08-17 09:43:47,102 INFO spawned: 'crdb_coordinator' with pid 13474
+2021-08-17 09:43:47,105 INFO spawned: 'rl_info_provider' with pid 13475
+2021-08-17 09:43:47,112 INFO spawned: 'alert_mgr' with pid 13476
+2021-08-17 09:43:47,116 INFO spawned: 'cm_server' with pid 13477
+2021-08-17 09:43:47,120 INFO spawned: 'dmcproxy' with pid 13479
+2021-08-17 09:43:47,123 INFO spawned: 'saslauthd' with pid 13480
+2021-08-17 09:43:47,126 INFO spawned: 'mdns_server' with pid 13481
+2021-08-17 09:43:47,134 INFO spawned: 'nginx' with pid 13482
+2021-08-17 09:43:47,137 INFO spawned: 'pdns_server' with pid 13483
+2021-08-17 09:43:47,141 INFO spawned: 'sentinel_service' with pid 13484
+2021-08-17 09:43:47,144 INFO spawned: 'start_redis_servers' with pid 13485
+2021-08-17 09:43:47,145 INFO success: start_redis_servers entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2021-08-17 09:43:47,151 INFO spawned: 'metrics_exporter' with pid 13487
+2021-08-17 09:43:47,155 INFO spawned: 'job_scheduler' with pid 13492
+2021-08-17 09:43:48,347 INFO success: ccs entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 09:43:48,347 INFO success: envoy_control_plane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 09:43:48,347 INFO success: heartbeatd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 09:43:48,347 INFO success: node_wd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 09:43:48,347 INFO success: cluster_wd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 09:43:48,347 INFO success: ldap_agent_mgr entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 09:43:48,348 INFO success: gossip_envoy entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 09:43:48,348 INFO success: envoy entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 09:43:48,348 INFO success: resource_mgr entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 09:43:48,348 INFO success: stats_archiver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 09:43:48,348 INFO success: crdb_worker_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 09:43:48,348 INFO success: crdb_worker_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 09:43:48,348 INFO success: cnm_exec entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 09:43:48,348 INFO success: redis_mgr entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 09:43:48,349 INFO success: cnm_http entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 09:43:48,349 INFO success: crdb_coordinator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 09:43:48,349 INFO success: rl_info_provider entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 09:43:48,349 INFO success: alert_mgr entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 09:43:48,349 INFO success: cm_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 09:43:48,349 INFO success: dmcproxy entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 09:43:48,349 INFO success: saslauthd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 09:43:48,349 INFO success: mdns_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 09:43:48,350 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 09:43:48,350 INFO success: pdns_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 09:43:48,350 INFO success: sentinel_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 09:43:48,350 INFO success: metrics_exporter entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 09:43:57,267 INFO success: job_scheduler entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2021-08-17 09:44:59,244 INFO exited: crdb_worker_1 (exit status 1; not expected)
+2021-08-17 09:44:59,252 INFO spawned: 'crdb_worker_1' with pid 14641
+2021-08-17 09:44:59,255 INFO exited: crdb_worker_0 (exit status 1; not expected)
+2021-08-17 09:45:00,141 INFO spawned: 'crdb_worker_0' with pid 14649
+2021-08-17 09:45:00,991 INFO success: crdb_worker_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 09:45:01,052 INFO exited: sentinel_service (exit status 1; not expected)
+2021-08-17 09:45:02,054 INFO success: crdb_worker_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 09:45:02,059 INFO spawned: 'sentinel_service' with pid 14660
+2021-08-17 09:45:03,064 INFO success: sentinel_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:04:14,200 INFO Included extra file "/etc/opt/redislabs/supervisord.conf.d/supervisord_cm_server.conf" during parsing
+2021-08-17 19:04:14,201 INFO Included extra file "/etc/opt/redislabs/supervisord.conf.d/supervisord_crdb_coordinator.conf" during parsing
+2021-08-17 19:04:14,202 INFO Included extra file "/etc/opt/redislabs/supervisord.conf.d/supervisord_crdb_worker.conf" during parsing
+2021-08-17 19:04:14,202 INFO Included extra file "/etc/opt/redislabs/supervisord.conf.d/supervisord_mdns_server.conf" during parsing
+2021-08-17 19:04:14,202 INFO Included extra file "/etc/opt/redislabs/supervisord.conf.d/supervisord_pdns_server.conf" during parsing
+2021-08-17 19:04:14,202 INFO Included extra file "/etc/opt/redislabs/supervisord.conf.d/supervisord_saslauthd.conf" during parsing
+2021-08-17 19:04:14,202 INFO Included extra file "/etc/opt/redislabs/supervisord.conf.d/supervisord_stats_archiver.conf" during parsing
+2021-08-17 19:04:14,519 INFO RPC interface 'supervisor' initialized
+2021-08-17 19:04:14,519 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-08-17 19:04:14,520 INFO supervisord started with pid 2523
+2021-08-17 19:04:15,526 INFO spawned: 'ccs' with pid 2578
+2021-08-17 19:04:15,530 INFO spawned: 'envoy_control_plane' with pid 2579
+2021-08-17 19:04:15,533 INFO spawned: 'heartbeatd' with pid 2580
+2021-08-17 19:04:15,535 INFO spawned: 'node_wd' with pid 2581
+2021-08-17 19:04:15,538 INFO spawned: 'cluster_wd' with pid 2582
+2021-08-17 19:04:15,540 INFO spawned: 'ldap_agent_mgr' with pid 2584
+2021-08-17 19:04:15,545 INFO spawned: 'gossip_envoy' with pid 2585
+2021-08-17 19:04:15,552 INFO spawned: 'envoy' with pid 2586
+2021-08-17 19:04:15,557 INFO spawned: 'resource_mgr' with pid 2587
+2021-08-17 19:04:15,560 INFO spawned: 'stats_archiver' with pid 2588
+2021-08-17 19:04:15,563 INFO spawned: 'crdb_worker_0' with pid 2590
+2021-08-17 19:04:15,566 INFO spawned: 'crdb_worker_1' with pid 2591
+2021-08-17 19:04:15,569 INFO spawned: 'cnm_exec' with pid 2592
+2021-08-17 19:04:15,572 INFO spawned: 'redis_mgr' with pid 2596
+2021-08-17 19:04:15,575 INFO spawned: 'cnm_http' with pid 2602
+2021-08-17 19:04:15,578 INFO spawned: 'crdb_coordinator' with pid 2607
+2021-08-17 19:04:15,580 INFO spawned: 'rl_info_provider' with pid 2625
+2021-08-17 19:04:15,583 INFO spawned: 'alert_mgr' with pid 2628
+2021-08-17 19:04:15,586 INFO spawned: 'cm_server' with pid 2629
+2021-08-17 19:04:15,590 INFO spawned: 'dmcproxy' with pid 2631
+2021-08-17 19:04:15,593 INFO spawned: 'saslauthd' with pid 2635
+2021-08-17 19:04:15,596 INFO spawned: 'mdns_server' with pid 2637
+2021-08-17 19:04:15,599 INFO spawned: 'nginx' with pid 2642
+2021-08-17 19:04:15,603 INFO spawned: 'pdns_server' with pid 2644
+2021-08-17 19:04:15,606 INFO spawned: 'sentinel_service' with pid 2645
+2021-08-17 19:04:15,610 INFO spawned: 'start_redis_servers' with pid 2646
+2021-08-17 19:04:15,614 INFO spawned: 'metrics_exporter' with pid 2648
+2021-08-17 19:04:15,623 INFO spawned: 'job_scheduler' with pid 2651
+2021-08-17 19:04:15,625 INFO success: start_redis_servers entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2021-08-17 19:04:16,522 INFO success: ccs entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:04:16,539 INFO success: envoy_control_plane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:04:16,539 INFO success: heartbeatd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:04:16,539 INFO success: node_wd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:04:16,539 INFO success: cluster_wd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:04:16,540 INFO success: ldap_agent_mgr entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:04:17,103 INFO success: gossip_envoy entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:04:17,104 INFO success: envoy entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:04:17,104 INFO success: resource_mgr entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:04:17,104 INFO success: stats_archiver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:04:17,104 INFO success: crdb_worker_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:04:17,104 INFO success: crdb_worker_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:04:17,104 INFO success: cnm_exec entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:04:17,104 INFO success: redis_mgr entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:04:17,104 INFO success: cnm_http entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:04:17,105 INFO success: crdb_coordinator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:04:17,105 INFO success: rl_info_provider entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:04:17,105 INFO success: alert_mgr entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:04:17,105 INFO success: cm_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:04:17,105 INFO success: dmcproxy entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:04:17,105 INFO success: saslauthd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:04:17,105 INFO success: mdns_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:04:17,105 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:04:17,105 INFO success: pdns_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:04:17,106 INFO success: sentinel_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:04:17,106 INFO success: metrics_exporter entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:04:25,650 INFO success: job_scheduler entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2021-08-17 19:07:04,386 INFO stopped: envoy (terminated by SIGTERM)
+2021-08-17 19:07:04,390 INFO stopped: heartbeatd (terminated by SIGTERM)
+2021-08-17 19:07:04,390 INFO stopped: saslauthd (exit status 0)
+2021-08-17 19:07:04,391 INFO stopped: envoy_control_plane (terminated by SIGTERM)
+2021-08-17 19:07:04,413 INFO stopped: nginx (exit status 0)
+2021-08-17 19:07:04,413 INFO stopped: pdns_server (terminated by SIGTERM)
+2021-08-17 19:07:04,414 INFO stopped: sentinel_service (terminated by SIGTERM)
+2021-08-17 19:07:04,414 INFO stopped: start_redis_servers (terminated by SIGTERM)
+2021-08-17 19:07:04,415 INFO waiting for ccs to stop
+2021-08-17 19:07:04,415 INFO waiting for node_wd to stop
+2021-08-17 19:07:04,416 INFO waiting for cluster_wd to stop
+2021-08-17 19:07:04,416 INFO waiting for ldap_agent_mgr to stop
+2021-08-17 19:07:04,416 INFO waiting for gossip_envoy to stop
+2021-08-17 19:07:04,416 INFO waiting for resource_mgr to stop
+2021-08-17 19:07:04,416 INFO waiting for stats_archiver to stop
+2021-08-17 19:07:04,416 INFO waiting for crdb_worker_0 to stop
+2021-08-17 19:07:04,417 INFO waiting for crdb_worker_1 to stop
+2021-08-17 19:07:04,417 INFO waiting for cnm_exec to stop
+2021-08-17 19:07:04,417 INFO waiting for redis_mgr to stop
+2021-08-17 19:07:04,417 INFO waiting for cnm_http to stop
+2021-08-17 19:07:04,417 INFO waiting for crdb_coordinator to stop
+2021-08-17 19:07:04,417 INFO waiting for rl_info_provider to stop
+2021-08-17 19:07:04,417 INFO waiting for alert_mgr to stop
+2021-08-17 19:07:04,417 INFO waiting for cm_server to stop
+2021-08-17 19:07:04,417 INFO waiting for dmcproxy to stop
+2021-08-17 19:07:04,417 INFO waiting for mdns_server to stop
+2021-08-17 19:07:04,417 INFO waiting for metrics_exporter to stop
+2021-08-17 19:07:04,417 INFO waiting for job_scheduler to stop
+2021-08-17 19:07:04,434 INFO stopped: ldap_agent_mgr (exit status 1)
+2021-08-17 19:07:04,439 INFO stopped: gossip_envoy (exit status 0)
+2021-08-17 19:07:04,448 INFO stopped: stats_archiver (exit status 1)
+2021-08-17 19:07:04,450 INFO stopped: rl_info_provider (exit status 1)
+2021-08-17 19:07:04,456 INFO stopped: ccs (exit status 0)
+2021-08-17 19:07:04,469 INFO stopped: mdns_server (exit status 1)
+2021-08-17 19:07:04,476 INFO stopped: cluster_wd (exit status 1)
+2021-08-17 19:07:04,484 INFO stopped: resource_mgr (exit status 1)
+2021-08-17 19:07:04,489 INFO stopped: alert_mgr (exit status 1)
+2021-08-17 19:07:04,489 INFO stopped: crdb_worker_1 (exit status 1)
+2021-08-17 19:07:04,490 INFO stopped: metrics_exporter (exit status 1)
+2021-08-17 19:07:04,500 INFO stopped: redis_mgr (exit status 1)
+2021-08-17 19:07:04,506 INFO stopped: job_scheduler (exit status 1)
+2021-08-17 19:07:04,512 INFO stopped: crdb_worker_0 (exit status 1)
+2021-08-17 19:07:04,515 INFO stopped: cnm_http (exit status 1)
+2021-08-17 19:07:04,530 INFO stopped: cm_server (exit status 1)
+2021-08-17 19:07:04,536 INFO stopped: cnm_exec (exit status 1)
+2021-08-17 19:07:04,592 INFO stopped: node_wd (exit status 1)
+2021-08-17 19:07:04,617 INFO stopped: crdb_coordinator (exit status 0)
+2021-08-17 19:07:06,621 INFO waiting for dmcproxy to stop
+2021-08-17 19:07:08,626 INFO waiting for dmcproxy to stop
+2021-08-17 19:07:10,631 INFO waiting for dmcproxy to stop
+2021-08-17 19:07:12,637 INFO waiting for dmcproxy to stop
+2021-08-17 19:07:14,641 WARN killing 'dmcproxy' (2631) with SIGKILL
+2021-08-17 19:07:14,642 INFO waiting for dmcproxy to stop
+2021-08-17 19:07:14,644 INFO stopped: dmcproxy (terminated by SIGKILL)
+2021-08-17 19:07:15,661 INFO spawned: 'ccs' with pid 5286
+2021-08-17 19:07:15,665 INFO spawned: 'envoy_control_plane' with pid 5287
+2021-08-17 19:07:15,668 INFO spawned: 'heartbeatd' with pid 5288
+2021-08-17 19:07:15,671 INFO spawned: 'node_wd' with pid 5289
+2021-08-17 19:07:15,674 INFO spawned: 'cluster_wd' with pid 5290
+2021-08-17 19:07:15,677 INFO spawned: 'ldap_agent_mgr' with pid 5291
+2021-08-17 19:07:15,680 INFO spawned: 'gossip_envoy' with pid 5296
+2021-08-17 19:07:15,683 INFO spawned: 'envoy' with pid 5298
+2021-08-17 19:07:15,687 INFO spawned: 'resource_mgr' with pid 5299
+2021-08-17 19:07:15,690 INFO spawned: 'stats_archiver' with pid 5300
+2021-08-17 19:07:15,693 INFO spawned: 'crdb_worker_0' with pid 5318
+2021-08-17 19:07:15,696 INFO spawned: 'crdb_worker_1' with pid 5321
+2021-08-17 19:07:15,699 INFO spawned: 'cnm_exec' with pid 5324
+2021-08-17 19:07:15,702 INFO spawned: 'redis_mgr' with pid 5330
+2021-08-17 19:07:15,705 INFO spawned: 'cnm_http' with pid 5335
+2021-08-17 19:07:15,709 INFO spawned: 'crdb_coordinator' with pid 5336
+2021-08-17 19:07:15,713 INFO spawned: 'rl_info_provider' with pid 5337
+2021-08-17 19:07:15,716 INFO spawned: 'alert_mgr' with pid 5339
+2021-08-17 19:07:15,720 INFO spawned: 'cm_server' with pid 5340
+2021-08-17 19:07:15,725 INFO spawned: 'dmcproxy' with pid 5341
+2021-08-17 19:07:15,729 INFO spawned: 'saslauthd' with pid 5342
+2021-08-17 19:07:15,732 INFO spawned: 'mdns_server' with pid 5343
+2021-08-17 19:07:15,736 INFO spawned: 'nginx' with pid 5345
+2021-08-17 19:07:15,744 INFO spawned: 'pdns_server' with pid 5346
+2021-08-17 19:07:15,748 INFO spawned: 'sentinel_service' with pid 5347
+2021-08-17 19:07:15,751 INFO spawned: 'start_redis_servers' with pid 5352
+2021-08-17 19:07:15,752 INFO success: start_redis_servers entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2021-08-17 19:07:15,755 INFO spawned: 'metrics_exporter' with pid 5354
+2021-08-17 19:07:15,758 INFO spawned: 'job_scheduler' with pid 5355
+2021-08-17 19:07:16,874 INFO success: ccs entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:07:16,874 INFO success: envoy_control_plane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:07:16,874 INFO success: heartbeatd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:07:16,874 INFO success: node_wd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:07:16,875 INFO success: cluster_wd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:07:16,875 INFO success: ldap_agent_mgr entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:07:16,875 INFO success: gossip_envoy entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:07:16,875 INFO success: envoy entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:07:16,875 INFO success: resource_mgr entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:07:16,876 INFO success: stats_archiver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:07:16,876 INFO success: crdb_worker_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:07:16,876 INFO success: crdb_worker_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:07:16,876 INFO success: cnm_exec entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:07:16,876 INFO success: redis_mgr entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:07:16,876 INFO success: cnm_http entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:07:16,877 INFO success: crdb_coordinator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:07:16,877 INFO success: rl_info_provider entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:07:16,877 INFO success: alert_mgr entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:07:16,877 INFO success: cm_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:07:16,877 INFO success: dmcproxy entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:07:16,877 INFO success: saslauthd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:07:16,878 INFO success: mdns_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:07:16,878 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:07:16,878 INFO success: pdns_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:07:16,878 INFO success: sentinel_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 19:07:16,878 INFO success: metrics_exporter entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 12:07:27,324 WARN process 'dmcproxy' (5341) laststart time is in the future, don't know how long process was running so assuming it did not exit too quickly
+2021-08-17 12:07:27,324 INFO exited: dmcproxy (terminated by SIGABRT; not expected)
+2021-08-17 12:07:28,330 INFO spawned: 'dmcproxy' with pid 5879
+2021-08-17 12:07:29,348 INFO success: dmcproxy entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 12:07:37,370 INFO success: job_scheduler entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
+2021-08-17 12:10:12,412 WARN process 'envoy_control_plane' (5287) laststart time is in the future, don't know how long process was running so assuming it did not exit too quickly
+2021-08-17 12:10:12,412 INFO stopped: envoy_control_plane (terminated by SIGTERM)
+2021-08-17 12:10:12,413 WARN process 'heartbeatd' (5288) laststart time is in the future, don't know how long process was running so assuming it did not exit too quickly
+2021-08-17 12:10:12,413 INFO stopped: heartbeatd (terminated by SIGTERM)
+2021-08-17 12:10:12,414 WARN process 'envoy' (5298) laststart time is in the future, don't know how long process was running so assuming it did not exit too quickly
+2021-08-17 12:10:12,414 INFO stopped: envoy (terminated by SIGTERM)
+2021-08-17 12:10:12,417 WARN process 'saslauthd' (5342) laststart time is in the future, don't know how long process was running so assuming it did not exit too quickly
+2021-08-17 12:10:12,417 INFO stopped: saslauthd (exit status 0)
+2021-08-17 12:10:12,417 WARN process 'nginx' (5345) laststart time is in the future, don't know how long process was running so assuming it did not exit too quickly
+2021-08-17 12:10:12,417 INFO stopped: nginx (exit status 0)
+2021-08-17 12:10:12,443 WARN process 'pdns_server' (5346) laststart time is in the future, don't know how long process was running so assuming it did not exit too quickly
+2021-08-17 12:10:12,443 INFO stopped: pdns_server (terminated by SIGTERM)
+2021-08-17 12:10:12,443 WARN process 'sentinel_service' (5347) laststart time is in the future, don't know how long process was running so assuming it did not exit too quickly
+2021-08-17 12:10:12,444 INFO stopped: sentinel_service (terminated by SIGTERM)
+2021-08-17 12:10:12,444 WARN process 'start_redis_servers' (5352) laststart time is in the future, don't know how long process was running so assuming it did not exit too quickly
+2021-08-17 12:10:12,444 INFO stopped: start_redis_servers (terminated by SIGTERM)
+2021-08-17 12:10:12,444 INFO waiting for ccs to stop
+2021-08-17 12:10:12,444 INFO waiting for node_wd to stop
+2021-08-17 12:10:12,444 INFO waiting for cluster_wd to stop
+2021-08-17 12:10:12,444 INFO waiting for ldap_agent_mgr to stop
+2021-08-17 12:10:12,444 INFO waiting for gossip_envoy to stop
+2021-08-17 12:10:12,444 INFO waiting for resource_mgr to stop
+2021-08-17 12:10:12,444 INFO waiting for stats_archiver to stop
+2021-08-17 12:10:12,444 INFO waiting for crdb_worker_0 to stop
+2021-08-17 12:10:12,444 INFO waiting for crdb_worker_1 to stop
+2021-08-17 12:10:12,444 INFO waiting for cnm_exec to stop
+2021-08-17 12:10:12,444 INFO waiting for redis_mgr to stop
+2021-08-17 12:10:12,444 INFO waiting for cnm_http to stop
+2021-08-17 12:10:12,444 INFO waiting for crdb_coordinator to stop
+2021-08-17 12:10:12,444 INFO waiting for rl_info_provider to stop
+2021-08-17 12:10:12,445 INFO waiting for alert_mgr to stop
+2021-08-17 12:10:12,445 INFO waiting for cm_server to stop
+2021-08-17 12:10:12,445 INFO waiting for dmcproxy to stop
+2021-08-17 12:10:12,445 INFO waiting for mdns_server to stop
+2021-08-17 12:10:12,445 INFO waiting for metrics_exporter to stop
+2021-08-17 12:10:12,445 INFO waiting for job_scheduler to stop
+2021-08-17 12:10:12,469 WARN process 'ldap_agent_mgr' (5291) laststart time is in the future, don't know how long process was running so assuming it did not exit too quickly
+2021-08-17 12:10:12,469 INFO stopped: ldap_agent_mgr (exit status 1)
+2021-08-17 12:10:12,472 WARN process 'alert_mgr' (5339) laststart time is in the future, don't know how long process was running so assuming it did not exit too quickly
+2021-08-17 12:10:12,473 INFO stopped: alert_mgr (exit status 1)
+2021-08-17 12:10:12,479 WARN process 'stats_archiver' (5300) laststart time is in the future, don't know how long process was running so assuming it did not exit too quickly
+2021-08-17 12:10:12,479 INFO stopped: stats_archiver (exit status 1)
+2021-08-17 12:10:12,484 WARN process 'ccs' (5286) laststart time is in the future, don't know how long process was running so assuming it did not exit too quickly
+2021-08-17 12:10:12,484 INFO stopped: ccs (exit status 0)
+2021-08-17 12:10:12,487 WARN process 'metrics_exporter' (5354) laststart time is in the future, don't know how long process was running so assuming it did not exit too quickly
+2021-08-17 12:10:12,487 INFO stopped: metrics_exporter (exit status 1)
+2021-08-17 12:10:12,493 WARN process 'rl_info_provider' (5337) laststart time is in the future, don't know how long process was running so assuming it did not exit too quickly
+2021-08-17 12:10:12,493 INFO stopped: rl_info_provider (exit status 1)
+2021-08-17 12:10:12,494 WARN process 'gossip_envoy' (5296) laststart time is in the future, don't know how long process was running so assuming it did not exit too quickly
+2021-08-17 12:10:12,494 INFO stopped: gossip_envoy (exit status 0)
+2021-08-17 12:10:12,498 WARN process 'resource_mgr' (5299) laststart time is in the future, don't know how long process was running so assuming it did not exit too quickly
+2021-08-17 12:10:12,499 INFO stopped: resource_mgr (exit status 1)
+2021-08-17 12:10:12,500 WARN process 'cluster_wd' (5290) laststart time is in the future, don't know how long process was running so assuming it did not exit too quickly
+2021-08-17 12:10:12,500 INFO stopped: cluster_wd (exit status 1)
+2021-08-17 12:10:12,500 WARN process 'mdns_server' (5343) laststart time is in the future, don't know how long process was running so assuming it did not exit too quickly
+2021-08-17 12:10:12,500 INFO stopped: mdns_server (exit status 1)
+2021-08-17 12:10:12,502 WARN process 'crdb_worker_0' (5318) laststart time is in the future, don't know how long process was running so assuming it did not exit too quickly
+2021-08-17 12:10:12,502 INFO stopped: crdb_worker_0 (exit status 1)
+2021-08-17 12:10:12,515 WARN process 'cm_server' (5340) laststart time is in the future, don't know how long process was running so assuming it did not exit too quickly
+2021-08-17 12:10:12,515 INFO stopped: cm_server (exit status 1)
+2021-08-17 12:10:12,536 INFO stopped: job_scheduler (exit status 1)
+2021-08-17 12:10:12,546 WARN process 'redis_mgr' (5330) laststart time is in the future, don't know how long process was running so assuming it did not exit too quickly
+2021-08-17 12:10:12,547 INFO stopped: redis_mgr (exit status 1)
+2021-08-17 12:10:12,563 WARN process 'node_wd' (5289) laststart time is in the future, don't know how long process was running so assuming it did not exit too quickly
+2021-08-17 12:10:12,563 INFO stopped: node_wd (exit status 1)
+2021-08-17 12:10:12,572 WARN process 'cnm_http' (5335) laststart time is in the future, don't know how long process was running so assuming it did not exit too quickly
+2021-08-17 12:10:12,572 INFO stopped: cnm_http (exit status 1)
+2021-08-17 12:10:12,595 WARN process 'cnm_exec' (5324) laststart time is in the future, don't know how long process was running so assuming it did not exit too quickly
+2021-08-17 12:10:12,595 INFO stopped: cnm_exec (exit status 1)
+2021-08-17 12:10:12,597 WARN process 'crdb_worker_1' (5321) laststart time is in the future, don't know how long process was running so assuming it did not exit too quickly
+2021-08-17 12:10:12,597 INFO stopped: crdb_worker_1 (exit status 1)
+2021-08-17 12:10:12,651 WARN process 'crdb_coordinator' (5336) laststart time is in the future, don't know how long process was running so assuming it did not exit too quickly
+2021-08-17 12:10:12,651 INFO stopped: crdb_coordinator (exit status 0)
+2021-08-17 12:10:14,658 INFO waiting for dmcproxy to stop
+2021-08-17 12:10:16,664 INFO waiting for dmcproxy to stop
+2021-08-17 12:10:18,669 INFO waiting for dmcproxy to stop
+2021-08-17 12:10:20,675 INFO waiting for dmcproxy to stop
+2021-08-17 12:10:22,680 WARN killing 'dmcproxy' (5879) with SIGKILL
+2021-08-17 12:10:22,681 INFO waiting for dmcproxy to stop
+2021-08-17 12:10:22,683 INFO stopped: dmcproxy (terminated by SIGKILL)
+2021-08-17 12:10:23,706 INFO spawned: 'ccs' with pid 6648
+2021-08-17 12:10:23,711 INFO spawned: 'envoy_control_plane' with pid 6649
+2021-08-17 12:10:23,715 INFO spawned: 'heartbeatd' with pid 6650
+2021-08-17 12:10:23,718 INFO spawned: 'node_wd' with pid 6651
+2021-08-17 12:10:23,721 INFO spawned: 'cluster_wd' with pid 6652
+2021-08-17 12:10:23,724 INFO spawned: 'ldap_agent_mgr' with pid 6658
+2021-08-17 12:10:23,728 INFO spawned: 'gossip_envoy' with pid 6659
+2021-08-17 12:10:23,731 INFO spawned: 'envoy' with pid 6660
+2021-08-17 12:10:23,734 INFO spawned: 'resource_mgr' with pid 6661
+2021-08-17 12:10:23,738 INFO spawned: 'stats_archiver' with pid 6669
+2021-08-17 12:10:23,741 INFO spawned: 'crdb_worker_0' with pid 6685
+2021-08-17 12:10:23,744 INFO spawned: 'crdb_worker_1' with pid 6691
+2021-08-17 12:10:23,747 INFO spawned: 'cnm_exec' with pid 6695
+2021-08-17 12:10:23,750 INFO spawned: 'redis_mgr' with pid 6697
+2021-08-17 12:10:23,753 INFO spawned: 'cnm_http' with pid 6700
+2021-08-17 12:10:23,757 INFO spawned: 'crdb_coordinator' with pid 6701
+2021-08-17 12:10:23,760 INFO spawned: 'rl_info_provider' with pid 6702
+2021-08-17 12:10:23,763 INFO spawned: 'alert_mgr' with pid 6703
+2021-08-17 12:10:23,766 INFO spawned: 'cm_server' with pid 6704
+2021-08-17 12:10:23,769 INFO spawned: 'dmcproxy' with pid 6705
+2021-08-17 12:10:23,773 INFO spawned: 'saslauthd' with pid 6706
+2021-08-17 12:10:23,780 INFO spawned: 'mdns_server' with pid 6707
+2021-08-17 12:10:23,784 INFO spawned: 'nginx' with pid 6708
+2021-08-17 12:10:23,787 INFO spawned: 'pdns_server' with pid 6713
+2021-08-17 12:10:23,791 INFO spawned: 'sentinel_service' with pid 6714
+2021-08-17 12:10:23,799 INFO spawned: 'start_redis_servers' with pid 6716
+2021-08-17 12:10:23,799 INFO success: start_redis_servers entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2021-08-17 12:10:23,802 INFO spawned: 'metrics_exporter' with pid 6718
+2021-08-17 12:10:23,805 INFO spawned: 'job_scheduler' with pid 6722
+2021-08-17 12:10:24,959 INFO success: ccs entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 12:10:24,960 INFO success: envoy_control_plane entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 12:10:24,960 INFO success: heartbeatd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 12:10:24,960 INFO success: node_wd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 12:10:24,960 INFO success: cluster_wd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 12:10:24,960 INFO success: ldap_agent_mgr entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 12:10:24,960 INFO success: gossip_envoy entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 12:10:24,960 INFO success: envoy entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 12:10:24,960 INFO success: resource_mgr entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 12:10:24,960 INFO success: stats_archiver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 12:10:24,960 INFO success: crdb_worker_0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 12:10:24,960 INFO success: crdb_worker_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 12:10:24,960 INFO success: cnm_exec entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 12:10:24,960 INFO success: redis_mgr entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 12:10:24,960 INFO success: cnm_http entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 12:10:24,960 INFO success: crdb_coordinator entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 12:10:24,960 INFO success: rl_info_provider entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 12:10:24,961 INFO success: alert_mgr entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 12:10:24,961 INFO success: cm_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 12:10:24,961 INFO success: dmcproxy entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 12:10:24,961 INFO success: saslauthd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 12:10:24,961 INFO success: mdns_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 12:10:24,961 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 12:10:24,961 INFO success: pdns_server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 12:10:24,961 INFO success: sentinel_service entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 12:10:24,961 INFO success: metrics_exporter entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-08-17 12:10:34,502 INFO success: job_scheduler entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)

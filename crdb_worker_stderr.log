@@ -1,0 +1,114 @@
+Traceback (most recent call last):
+  File "/opt/redislabs/lib/python2.7/runpy.py", line 174, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/opt/redislabs/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "cnm/http_services/crdb_coordinator/worker.py", line 80, in <module>
+  File "cnm/daemon_startup.py", line 444, in main
+  File "cnm/http_services/crdb_coordinator/worker.py", line 72, in main
+  File "/opt/redislabs/lib/python2.7/site-packages/rq/worker.py", line 548, in work
+    self.register_death()
+  File "/opt/redislabs/lib/python2.7/site-packages/rq/worker.py", line 291, in register_death
+    p.execute()
+  File "/opt/redislabs/lib/python2.7/site-packages/redis/client.py", line 4013, in execute
+    self.shard_hint)
+  File "/opt/redislabs/lib/python2.7/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/opt/redislabs/lib/python2.7/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to unix socket: /var/opt/redislabs/run/ccs.sock. Connection refused.
+Traceback (most recent call last):
+  File "/opt/redislabs/lib/python2.7/runpy.py", line 174, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/opt/redislabs/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "cnm/http_services/crdb_coordinator/worker.py", line 80, in <module>
+  File "cnm/daemon_startup.py", line 444, in main
+  File "cnm/http_services/crdb_coordinator/worker.py", line 72, in main
+  File "/opt/redislabs/lib/python2.7/site-packages/rq/worker.py", line 548, in work
+    self.register_death()
+  File "/opt/redislabs/lib/python2.7/site-packages/rq/worker.py", line 291, in register_death
+    p.execute()
+  File "/opt/redislabs/lib/python2.7/site-packages/redis/client.py", line 4013, in execute
+    self.shard_hint)
+  File "/opt/redislabs/lib/python2.7/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/opt/redislabs/lib/python2.7/site-packages/redis/connection.py", line 567, in connect
+    self.on_connect()
+  File "/opt/redislabs/lib/python2.7/site-packages/redis/connection.py", line 643, in on_connect
+    auth_response = self.read_response()
+  File "/opt/redislabs/lib/python2.7/site-packages/redis/connection.py", line 739, in read_response
+    response = self._parser.read_response()
+  File "/opt/redislabs/lib/python2.7/site-packages/redis/connection.py", line 470, in read_response
+    self.read_from_socket()
+  File "/opt/redislabs/lib/python2.7/site-packages/redis/connection.py", line 453, in read_from_socket
+    (ex.args,))
+redis.exceptions.ConnectionError: Error while reading from socket: (104, 'Connection reset by peer')
+No handlers could be found for logger "connexion.options"
+No handlers could be found for logger "connexion.options"
+Traceback (most recent call last):
+  File "/opt/redislabs/lib/python2.7/runpy.py", line 174, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/opt/redislabs/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "cnm/http_services/crdb_coordinator/worker.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/opt/redislabs/lib/python2.7/runpy.py", line 174, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/opt/redislabs/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "cnm/http_services/crdb_coordinator/worker.py", line 80, in <module>
+  File "cnm/daemon_startup.py", line 444, in main
+  File "cnm/http_services/crdb_coordinator/worker.py", line 72, in main
+  File "/opt/redislabs/lib/python2.7/site-packages/rq/worker.py", line 548, in work
+  File "cnm/daemon_startup.py", line 444, in main
+  File "cnm/http_services/crdb_coordinator/worker.py", line 72, in main
+  File "/opt/redislabs/lib/python2.7/site-packages/rq/worker.py", line 548, in work
+    self.register_death()
+  File "/opt/redislabs/lib/python2.7/site-packages/rq/worker.py", line 291, in register_death
+    p.execute()
+  File "/opt/redislabs/lib/python2.7/site-packages/redis/client.py", line 4013, in execute
+    self.shard_hint)
+  File "/opt/redislabs/lib/python2.7/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/opt/redislabs/lib/python2.7/site-packages/redis/connection.py", line 567, in connect
+    self.register_death()
+  File "/opt/redislabs/lib/python2.7/site-packages/rq/worker.py", line 291, in register_death
+    p.execute()
+  File "/opt/redislabs/lib/python2.7/site-packages/redis/client.py", line 4013, in execute
+    self.shard_hint)
+  File "/opt/redislabs/lib/python2.7/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/opt/redislabs/lib/python2.7/site-packages/redis/connection.py", line 567, in connect
+    self.on_connect()
+  File "/opt/redislabs/lib/python2.7/site-packages/redis/connection.py", line 643, in on_connect
+    self.on_connect()
+  File "/opt/redislabs/lib/python2.7/site-packages/redis/connection.py", line 643, in on_connect
+    auth_response = self.read_response()
+  File "/opt/redislabs/lib/python2.7/site-packages/redis/connection.py", line 739, in read_response
+    response = self._parser.read_response()
+  File "/opt/redislabs/lib/python2.7/site-packages/redis/connection.py", line 470, in read_response
+    self.read_from_socket()
+  File "/opt/redislabs/lib/python2.7/site-packages/redis/connection.py", line 453, in read_from_socket
+    (ex.args,))
+redis.exceptions.ConnectionError: Error while reading from socket: (104, 'Connection reset by peer')
+    auth_response = self.read_response()
+  File "/opt/redislabs/lib/python2.7/site-packages/redis/connection.py", line 739, in read_response
+    response = self._parser.read_response()
+  File "/opt/redislabs/lib/python2.7/site-packages/redis/connection.py", line 470, in read_response
+    self.read_from_socket()
+  File "/opt/redislabs/lib/python2.7/site-packages/redis/connection.py", line 453, in read_from_socket
+    (ex.args,))
+redis.exceptions.ConnectionError: Error while reading from socket: (104, 'Connection reset by peer')
+No handlers could be found for logger "connexion.options"
+No handlers could be found for logger "connexion.options"
+No handlers could be found for logger "connexion.options"
+No handlers could be found for logger "connexion.options"
+Terminating on signal 15
+Terminating on signal 15
+No handlers could be found for logger "connexion.options"
+No handlers could be found for logger "connexion.options"
+Terminating on signal 15
+Terminating on signal 15
+No handlers could be found for logger "connexion.options"
+No handlers could be found for logger "connexion.options"

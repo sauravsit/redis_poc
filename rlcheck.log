@@ -1,0 +1,56 @@
+2021-08-17 09:30:38.601046 - Saving to file: /var/opt/redislabs/log/rlcheck.log
+2021-08-17 09:30:38.601108 - (Remark : Will stop on first failure)
+2021-08-17 09:30:38.601139 - ##### Welcome to RedisLabs Enterprise Cluster settings verification utility ####
+2021-08-17 09:30:38.601175 - Running test: verify_bootstrap_status
+2021-08-17 09:30:38.713963 - 		PASS
+2021-08-17 09:30:38.714065 - Running test: verify_processes
+2021-08-17 09:30:38.714100 - 	Verifying local and master CCS...
+2021-08-17 09:30:38.718419 - 		PASS
+2021-08-17 09:30:38.718537 - 	Verifying CCS DNS...
+2021-08-17 09:30:38.733204 - 		PASS
+2021-08-17 09:30:38.733351 - 	Verifying daemons:...
+2021-08-17 09:30:38.740562 - 	Verifying mdns_server daemon...
+2021-08-17 09:30:38.742577 - 		PASS
+2021-08-17 09:30:38.742689 - 	Verifying cnm_exec daemon...
+2021-08-17 09:30:38.743463 - 		PASS
+2021-08-17 09:30:38.743572 - 	Verifying cluster_wd daemon...
+2021-08-17 09:30:38.744291 - 		PASS
+2021-08-17 09:30:38.744371 - 	Verifying node_wd daemon...
+2021-08-17 09:30:38.745227 - 		PASS
+2021-08-17 09:30:38.745308 - 	Verifying cm_server daemon...
+2021-08-17 09:30:38.747041 - 		PASS
+2021-08-17 09:30:38.747101 - 	Verifying redis_mgr daemon...
+2021-08-17 09:30:38.747593 - 		PASS
+2021-08-17 09:30:38.747675 - 	Verifying resource_mgr daemon...
+2021-08-17 09:30:38.748217 - 		PASS
+2021-08-17 09:30:38.748265 - 	Verifying alert_mgr daemon...
+2021-08-17 09:30:38.748694 - 		PASS
+2021-08-17 09:30:38.748784 - 	Verifying metrics_exporter daemon...
+2021-08-17 09:30:38.749368 - 		PASS
+2021-08-17 09:30:38.749415 - 	Verifying stats_archiver daemon...
+2021-08-17 09:30:38.750825 - 		PASS
+2021-08-17 09:30:38.750880 - 	Verifying crdb_coordinator daemon...
+2021-08-17 09:30:38.752133 - 		PASS
+2021-08-17 09:30:38.752187 - 	Verifying job_scheduler daemon...
+2021-08-17 09:30:38.753068 - 		PASS
+2021-08-17 09:30:38.753118 - 	Verifying redis_mgr daemon...
+2021-08-17 09:30:38.753456 - 		PASS
+2021-08-17 09:30:38.753529 - 	Verifying ldap_agent_mgr daemon...
+2021-08-17 09:30:38.754142 - 		PASS
+2021-08-17 09:30:38.754364 - Running test: verify_dmcproxy
+2021-08-17 09:30:39.101205 - 		PASS
+2021-08-17 09:30:39.101499 - Running test: verify_port_range
+2021-08-17 09:30:39.121218 - 		PASS
+2021-08-17 09:30:39.121525 - Running test: verify_pidfiles
+2021-08-17 09:30:39.146003 - 		PASS
+2021-08-17 09:30:39.146073 - Running test: verify_capabilities
+2021-08-17 09:30:39.243941 - 		PASS
+2021-08-17 09:30:39.244352 - Running test: verify_existing_sockets
+2021-08-17 09:30:39.245014 - 		PASS
+2021-08-17 09:30:39.245176 - Running test: verify_host_settings
+2021-08-17 09:30:39.248086 - 		PASS
+2021-08-17 09:30:39.248272 - Running test: verify_tcp_connectivity
+2021-08-17 09:30:39.645886 - 		FAILED - TCP connectivity Failure: connectivity check failed for the following mesh routes: ['rl_info_provider:2', 'resource_mgr:2', 'node_wd:2', 'cluster_wd:2', '2:/test/cluster/assert_node_uid/2', 'encrypted_cluster_wd:2']
+2021-08-17 09:30:39.645944 - ERROR in test verify_tcp_connectivity: connectivity check failed for the following mesh routes: ['rl_info_provider:2', 'resource_mgr:2', 'node_wd:2', 'cluster_wd:2', '2:/test/cluster/assert_node_uid/2', 'encrypted_cluster_wd:2'] 
+2021-08-17 09:30:39.645982 - Stopping on Error: connectivity check failed for the following mesh routes: ['rl_info_provider:2', 'resource_mgr:2', 'node_wd:2', 'cluster_wd:2', '2:/test/cluster/assert_node_uid/2', 'encrypted_cluster_wd:2'] 
+

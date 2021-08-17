@@ -1,0 +1,26 @@
+node_id -> addr:
+	 1    ->    10.197.140.77 10.197.140.77
+	 2    ->    10.197.136.48 
+	 3    ->    10.197.138.179 
+
+bdb_name -> bdb_id:
+	 Testdata2    ->    6
+	 Testdata3    ->    7
+	 Testdata4    ->    8
+bdb_id -> endpoints:
+	 6    ->    node_id: 1 , port: 16672
+	 7    ->    node_id: 3 , port: 18985
+	 8    ->    node_id: 3 , port: 15749
+node_id -> addr:
+	 1    ->    10.197.140.77 10.197.140.77
+	 2    ->    10.197.136.48 
+	 3    ->    10.197.138.179 
+
+bdb_name -> bdb_id:
+	 Testdata2    ->    6
+	 Testdata3    ->    7
+	 Testdata4    ->    8
+bdb_id -> endpoints:
+	 6    ->    node_id: 1 , port: 16672
+	 7    ->    node_id: 3 , port: 18985
+	 8    ->    node_id: 3 , port: 15749

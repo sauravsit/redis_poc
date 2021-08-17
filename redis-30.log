@@ -1,0 +1,12 @@
+23949:M 17 Aug 2021 11:54:45.898 # Connection with replica client id #2125133 lost.
+23949:M 17 Aug 2021 11:54:49.459 * Replica 10.197.136.48:29708 asks for synchronization
+23949:M 17 Aug 2021 11:54:49.460 * Full resync requested by replica 10.197.136.48:29708
+23949:M 17 Aug 2021 11:54:49.460 * Delay next BGSAVE for diskless SYNC
+23949:M 17 Aug 2021 11:54:55.437 * Starting BGSAVE for SYNC with target: replicas sockets
+23949:M 17 Aug 2021 11:54:55.456 * Background RDB transfer started by pid 29292
+29292:C 17 Aug 2021 11:54:55.457 * BGSAVE done, 0 keys saved, 0 keys skipped, 324 bytes written.
+29292:C 17 Aug 2021 11:54:55.470 * RDB: 0 MB of memory used by copy-on-write
+23949:M 17 Aug 2021 11:54:55.470 # Diskless rdb transfer, done reading from pipe, 1 replicas still up.
+23949:M 17 Aug 2021 11:54:56.458 * Background RDB transfer terminated with success
+23949:M 17 Aug 2021 11:54:56.458 * Streamed RDB transfer with replica 10.197.136.48:29708 succeeded (socket). Waiting for REPLCONF ACK from slave to enable streaming
+23949:M 17 Aug 2021 11:54:56.477 * Synchronization with replica 10.197.136.48:29708 succeeded
